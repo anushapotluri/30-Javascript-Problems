@@ -1,0 +1,6 @@
+array.from - creates a new array from the given object
+array.isArray - tells whether given array is an array or not
+array.of - creates a new array based on the number of arguments 
+array.concat - merges two arrays into single array.
+array.copywithin - copies within the array based on the position given
+array.

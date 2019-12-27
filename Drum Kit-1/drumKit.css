@@ -1,0 +1,38 @@
+body {
+    background: url(http://i.imgur.com/b9r5sEL.jpg);
+}
+.mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.drum-note {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    transition: all 0.2s;
+}
+span {
+    margin: 10px;
+}
+.inner-text {
+    color: yellow;
+    font-size: 10px;
+}
+.main-text {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.keyEffect {
+transform : scale(1.1);
+border-color: #ffc600;
+box-shadow: 0 0 10px #ffc600;
+}
