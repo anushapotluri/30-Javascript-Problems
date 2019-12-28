@@ -1,0 +1,31 @@
+body {
+    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 20px solid #fff;
+    border-radius: 50%;
+}
+.hour-hand {
+    border-bottom: 5px solid black;    
+    transform: translate(100px, 97.5px) rotate(270deg);    
+    transform-origin: left;    
+    width: 60px;
+}
+.minute-hand {
+    border-bottom: 5px solid black;
+    transform: translate(100px, 92.5px) rotate(180deg);
+    transform-origin: left;
+    width: 90px;
+}
+.second-hand {
+    border-bottom: 5px solid black;
+    transform: translate(100px,87.5px) rotate(60deg);
+    transform-origin: left;
+    width:99px;
+}
